@@ -85,7 +85,7 @@ function baseDeco (){
 
 
 
-cod.addEventListener("click", function(event){
+cod.addEventListener("click", function(){
     p.style.display = 'block'
     if(opcoes.value === "cesar"){
         p.innerHTML = codeCesar()
@@ -101,6 +101,7 @@ decod.addEventListener("click", function(){
     p.style.desplay = 'block'
     if(opcoes.value === "cesar"){
         p.innerHTML = decoCesar()
+        
     }
     else if(opcoes.value === "base") {
         p.innerHTML = baseDeco()
