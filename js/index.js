@@ -54,7 +54,7 @@ function decoCesar (){
     var mensagemCodificada = '';
     
     for(var i = 0; i < mensagemMinuscula.length; i++){
-        for(var j = 0; j < alfa.length; j--){
+        for(var j = alfa.length - 1; j >= 0; j--){
             if(mensagemMinuscula[i] == alfa[j]){
                 mensagemCodificada += alfa [j - numeroEscolhido]
                 break;
