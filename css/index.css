@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+}
+header{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+fieldset{
+    display: flex;
+    width: 45%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+div .titulo-text{
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+.form{
+    height: 75%;
+}
+#tex{
+    height: 156px;
+    width: 310px;
+    border-radius: 5px;
+    background-color: rgba(8, 8, 8, 0.897);
+}
+#tex:focus{
+    background-color: rgba(11, 32, 150, 0.788);
+}
+.titu{
+    font-size: 35px; 
+}
+strong{
+    color: rgb(255, 255, 255);
+}
+div .opc{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.crip{
+    font-size: 20px;
+}
+#opcoes{
+    background-color:rgba(8, 8, 8, 0.897);
+    height: 25px;
+    font-size: 15px;
+}
+#opcoes:hover{
+    background-color: rgba(11, 32, 150, 0.788);
+}
+#incremento{
+    background-color:rgba(8, 8, 8, 0.897);
+    width: 200px;
+    height: 30px;
+    display: none;
+    /* margin-left: 180px; */
+    text-align: center;
+    /* margin-top: 20px; */
+    margin: auto;
+    font-size: 16px;
+}
+input #incremento{
+    margin-right: auto;
+    display: block;
+    
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
+    display: none;
+}
+input{
+    background-color:rgba(8, 8, 8, 0.897) ;
+    font-size: 18px;
+}
+input:hover{
+    background-color: rgba(11, 32, 150, 0.788);
+}
+
+
+/* button{
+    background-color:rgba(8, 8, 8, 0.897) ;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgba(11, 32, 150, 0.788);
+} */

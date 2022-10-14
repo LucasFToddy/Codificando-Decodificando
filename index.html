@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        body{
+            background-image: url(https://timr.com.br/wp-content/uploads/2021/06/30.06.21-FOTO-ARTIGO-para-SITE_1-redimensionada.png);
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <h1>Bora Codificar e decodificar BILL</h1>
+    </header>
+    
+    <div class="formulario">
+        <form class="form">
+            <fieldset>
+                               
+                <div class="titulo-text">
+                    <label class="titu"><strong> Digite para ser Codificada</strong></label>
+                    <br><br>
+                    <textarea name="input-text" id="tex" cols="20" rows="3" style="resize:none"></textarea>
+                    <br><br>
+                    <div class="opc">
+                        <label class="crip">Criptografias</label>
+                        <select id="opcoes">
+                            <option selected disabled value="">Selecione</option>
+                            <option value="cesar">Cifra de Cesár</option>
+                            <option value="base">Base64</option>
+                        </select>
+                    </div>
+                    <input type="number" id="incremento" placeholder="Escolha seu numero" min="1" max="25">
+                    <br>
+                    <p class="menCod"></p>
+                    
+                    <input type="button" id="cod" name="" value="codificar">
+                    <input type="button" id="decod" name="" value="decodificar">
+                    
+                    <!-- <button type="submit" id="cod">Codificar</button>
+                    <button type="submit" id="decod">Decodificar</button> -->
+
+                </div>
+                
+                
+            </fieldset>
+
+        </form>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
